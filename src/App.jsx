@@ -1,4 +1,4 @@
-import './styles/global.css'; 
+import './styles/global.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './Components/Navbar';
 import HomePage from './Pages/HomePage';
@@ -17,7 +17,7 @@ function App() {
         <Route path="/cart" element={<CartPage />} />
         <Route path="/checkout" element={<CheckoutPage />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </Router>
   );
 }

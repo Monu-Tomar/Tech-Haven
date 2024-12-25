@@ -44,10 +44,14 @@
   }
   
   /* Responsive Product Detail */
+  @media (max-width: 1080px) {
+    .product-detail {
+      margin: 40px;
+    }
+  }
   @media (max-width: 768px) {
     .product-detail {
       flex-direction: column;
-      text-align: center;
     }
   
     .product-detail img {
@@ -56,6 +60,7 @@
   
     .product-detail .product-info {
       width: 80%;
+      padding-left: 20px;
     }
   }
   
