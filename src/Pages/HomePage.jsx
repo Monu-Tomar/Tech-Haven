@@ -17,7 +17,7 @@ const HomePage = () => {
 
   return (
     <div>
-      <h1 className='home-h1'>Product List</h1>
+      <h1 className='home-h1'>Our Products</h1>
       <div className="product-list">
         {products.map(product => (
           <ProductCard
